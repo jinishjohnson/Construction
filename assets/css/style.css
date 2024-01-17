@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+:root{
+    --text : #0039f5c9;
+    --bgrd :   linear-gradient(
+        50deg,
+        rgba(255, 255, 255, 0.4) 12%,
+        rgba(255, 255, 255, 0.1) 77%
+      );
+}
+*{
+    align-items: center;
+    justify-content: center;
+    overflow:-moz-hidden-unscrollable;
+    overscroll-behavior: var(--bgrd);
+}
+body{
+    width: 100%;
+    background: rgb(151,149,185);
+    background: var(--bgrd);
+   }
+.navbar{
+    width: 100%;
+    background-color: rgb(255 255 255);
+   
+}
+.hero1{
+    width: 100%;
+    height: 720px;
+    border-radius: 12px;
+    border-bottom: #000000;
+    box-shadow: #000000;
+  }
+.container-flex {
+    position: relative; /* Set the container to a relative position */
+  }
+  
+  .centered {
+    position: absolute; /* Set the text to an absolute position */
+    top: 40%; /* Position it 50% from the top of the container */
+    left: 50%; /* Position it 50% from the left of the container */
+    transform: translate(-50%, -50%); /* Center the text using translate */
+    color: var(--text); /* Set text color to white (adjust as needed) */
+    font-size: 66px; /* Set the font size (adjust as needed) */
+    text-align: center; /* Center-align the text */
+    text-shadow: #000000;
+    font-weight: bold;
+    background-color: #ffffffad;
+    border-radius: 15px;
+    box-shadow: #000000;
+  }
+  .btn{
+    font-family: 'Rubik', sans-serif;
+    position: absolute; /* Set the text to an absolute position */
+    top: 70%; /* Position it 50% from the top of the container */
+    left: 50%; /* Position it 50% from the left of the container */
+    transform: translate(-50%, -50%); /* Center the text using translate */
+    color: var(--text); /* Set text color to white (adjust as needed) */
+    font-size: 20px; /* Set the font size (adjust as needed) */
+    text-align: center; /* Center-align the text */
+    font-weight: bold;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: #000000;
+   
+  }
+  .btn:hover{
+    font-family: 'Rubik', sans-serif;
+    position: absolute; /* Set the text to an absolute position */
+    top: 72%; /* Position it 50% from the top of the container */
+    left: 50%; /* Position it 50% from the left of the container */
+    transform: translate(-50%, -50%); /* Center the text using translate */
+    color: var(--text); /* Set text color to white (adjust as needed) */
+    font-size: 20px; /* Set the font size (adjust as needed) */
+    text-align: center; /* Center-align the text */
+    font-weight: bold;
+    background-color: #000000;
+    border-radius: 15px;
+    box-shadow: #000000;
+    transition:ease-in-out 1.5 s;
+    cursor:default ;
+
+
+  }
+  .cardset{
+    align-items: center;
+    background-color: rgba(0, 23, 16, 0.751);
+    border-radius: 12px;
+  }
+  .cardset:hover{
+    transition:linear 0.5s;
+    background-color:#ffffff4d ;
+  }
+  .singlecard{
+  box-shadow: #000000;
+  }
+  .singlecard:hover{
+    box-shadow: var(--text);
+    transition: linear-gradient(1.2s);
+   
+  }
+
+
+  
