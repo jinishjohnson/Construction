@@ -10,8 +10,7 @@
 *{
     align-items: center;
     justify-content: center;
-    overflow:-moz-hidden-unscrollable;
-    overscroll-behavior: var(--bgrd);
+    
 }
 body{
     width: 100%;
@@ -52,7 +51,7 @@ body{
   .bts{
     font-family: 'Rubik', sans-serif;
     position: absolute; /* Set the text to an absolute position */
-    top: 90%; /* Position it 50% from the top of the container */
+    top: 92%; /* Position it 50% from the top of the container */
     left: 50%; /* Position it 50% from the left of the container */
     transform: translate(-50%, -50%); /* Center the text using translate */
     color: var(--text); /* Set text color to white (adjust as needed) */
@@ -62,6 +61,7 @@ body{
     background-color: #ffffff;
     border-radius: 15px;
     box-shadow: #000000;
+    z-index: 9px;
    
   }
   .bts:hover{
@@ -102,4 +102,63 @@ body{
 .aboutsec{
   justify-items: center;
 }
+
+/* Example media query for a tablet-sized screen */
+@media (300px <= width <= 600px) {
+
+  body{
+    width: 100%;
+    height: auto;
+  }
+  .hero1{
+    display: none;
+    width: 100%;
+    height: auto;
+    border-bottom: #000000;
+    box-shadow: #000000;
+    
+  }
+  .centered {
+    width: 100%;
+    height: auto;
+    position: relative;
+    /* top: 70%; */
+    /* left: 50%; */
+    margin-top: 357px;
+    transform: translate(-50%, -50%);
+    color: var(--text);
+    font-size: 1.2rems;
+    text-align: center;
+    text-shadow: #000000;
+    font-weight: 100;
+    background-color: rgb(4, 206, 206);
+    border-radius: 7px;
+    box-shadow: #000000;
+    z-index: 9px;
+    margin-bottom: -272px;
+    
+ 
+
+  
+}
+.bts{
+  font-family: 'Rubik', sans-serif;
+  position: absolute; /* Set the text to an absolute position */
+  top: 100%; /* Position it 50% from the top of the container */
+  left: 50%; /* Position it 50% from the left of the container */
+  transform: translate(-50%, -50%); /* Center the text using translate */
+  color: var(--text); /* Set text color to white (adjust as needed) */
+  font-size: 16px; /* Set the font size (adjust as needed) */
+  text-align: center; /* Center-align the text */
+  font-weight: bold;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: #000000;
+  z-index: 9px;
+ 
+
+
+
+}
+
   

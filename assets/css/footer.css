@@ -34,13 +34,13 @@ body{
 	background-image: url(../images/cards/v748-toon-111.png);
 }
 .logo-footer{
-	/* max-width: 300px; */
+	max-width: 300px;
 }
 .social-links{
-	/* display: flex;
+	display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; */
+    justify-content: center;
 
 }
 .social-links h2{
@@ -110,7 +110,7 @@ li{
 .use-links li a:hover{
 	color: rgb(39, 3, 97);
 }
-/* .address h2{
+.address h2{
 	padding-bottom: 15px;
 	font-size: 20px;
     font-weight: 600;
@@ -133,7 +133,7 @@ li{
 }
 .address-links li i:nth-child(1){
 	padding-top: 9px; */
-
+}
 .address-links .address1{
 	font-weight: 500;
     font-size: 15px;
@@ -166,5 +166,3 @@ li{
 a{
   text-decoration:none;
 }
-
-/* footer section end */
