@@ -35,6 +35,7 @@ body{
   }
   
   .centered {
+    margin-top:50px;
     position: absolute; /* Set the text to an absolute position */
     top: 40%; /* Position it 50% from the top of the container */
     left: 50%; /* Position it 50% from the left of the container */
@@ -48,10 +49,10 @@ body{
     border-radius: 15px;
     box-shadow: #000000;
   }
-  .btn{
+  .bts{
     font-family: 'Rubik', sans-serif;
     position: absolute; /* Set the text to an absolute position */
-    top: 70%; /* Position it 50% from the top of the container */
+    top: 90%; /* Position it 50% from the top of the container */
     left: 50%; /* Position it 50% from the left of the container */
     transform: translate(-50%, -50%); /* Center the text using translate */
     color: var(--text); /* Set text color to white (adjust as needed) */
@@ -63,10 +64,10 @@ body{
     box-shadow: #000000;
    
   }
-  .btn:hover{
+  .bts:hover{
     font-family: 'Rubik', sans-serif;
     position: absolute; /* Set the text to an absolute position */
-    top: 72%; /* Position it 50% from the top of the container */
+    top: 92%; /* Position it 50% from the top of the container */
     left: 50%; /* Position it 50% from the left of the container */
     transform: translate(-50%, -50%); /* Center the text using translate */
     color: var(--text); /* Set text color to white (adjust as needed) */
@@ -98,6 +99,7 @@ body{
     transition: linear-gradient(1.2s);
    
   }
-
-
+.aboutsec{
+  justify-items: center;
+}
   
